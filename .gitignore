@@ -1,17 +1,92 @@
+############################
+# Maven
+############################
 target/
+dependency-reduced-pom.xml
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
-dependency-reduced-pom.xml
 buildNumber.properties
-.mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+.mvn/timing.properties
+!.mvn/wrapper/maven-wrapper.jar
+
+############################
+# Java
+############################
+*.class
+*.log
+hs_err_pid*
+
+############################
+# JavaFX / Runtime
+############################
+*.jpackage
+*.jmod
+
+############################
+# IDE - IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+############################
+# IDE - Eclipse
+############################
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings/
+
+############################
+# IDE - VS Code
+############################
+.vscode/
+*.code-workspace
+
+############################
+# OS
+############################
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+############################
+# Docker
+############################
+*.tar
+docker-compose.override.yml
+
+############################
+# Logs & temp
+############################
+logs/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+############################
+# Environment & secrets
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Tests & coverage
+############################
+coverage/
+*.exec
+
+############################
+# GitHub
+############################
+.github/workflows/*.log
