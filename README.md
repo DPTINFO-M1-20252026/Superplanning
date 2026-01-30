@@ -17,7 +17,7 @@ https://projetedt.atlassian.net/jira/software/projects/SCRUM/boards/1
 ## Description
 **Superplanning** est une application client-lourd permettant la gestion complète d'un planning universitaire. Elle gère les interactions entre les étudiants, les professeurs et l'administration pour la planification des cours, la gestion des salles et le suivi des absences.
 
-Ce projet est développé par une équipe de **4 personnes** suivant la méthodologie **Scrum** (Sprints de 1 semaine).
+Ce projet est développé par une équipe de 4 personnes suivant la méthodologie Scrum (Sprints de 1 semaine).
 
 ---
 
@@ -42,7 +42,7 @@ Ce projet est développé par une équipe de **4 personnes** suivant la méthodo
 
 * **Langage :** Java 17 
 * **Interface Graphique :** JavaFX 
-* **Architecture :** MVVM (Model - View - ViewModel)
+* **Architecture :** MVC (Model - View - Controller)
 * **Build & Dépendances :** Maven
 * **Base de Données :** PostgreSQL 
 
